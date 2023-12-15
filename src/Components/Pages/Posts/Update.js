@@ -42,7 +42,7 @@ const Update = ({ post }) => {
     useEffect(() => {
         setFirstName(post.FirstName)
         setLastName(post.LastName)
-        setImgSrc(post.imgSrc)
+        // setImgSrc(post.imgSrc)
     }, [])
     
     const editimage = () => {
@@ -53,10 +53,10 @@ const Update = ({ post }) => {
     };
     
 
-    const capture = useCallback(() => {
-        const imageSrc = Photoref.current.getScreenshot();
-        setImgSrc(imageSrc);
-      }, [Photoref]);
+    // const capture = useCallback(() => {
+    //     const imageSrc = Photoref.current.getScreenshot();
+    //     setImgSrc(imageSrc);
+    //   }, [Photoref]);
     
 
     return ( 

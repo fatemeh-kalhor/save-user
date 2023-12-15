@@ -81,7 +81,7 @@ const Show = () => {
                     <li className="list-group-item bg-dark text-white">
                         <button className="btn btn-success btn-sm mx-2 text-capitalize" onClick={comebackposts}>come back</button>
                         <button className="btn btn-danger btn-sm mx-2 text-capitalize" onClick={deletepost}>delete</button>
-                        <button  className="btn btn-warning btn-sm mx-2 text-capitalize" onClick={editpost}>edit</button>
+                        {/* <button  className="btn btn-warning btn-sm mx-2 text-capitalize" onClick={editpost}>edit</button> */}
                     </li>
                     
         </ul>
