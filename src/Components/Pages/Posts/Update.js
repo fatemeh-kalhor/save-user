@@ -72,7 +72,13 @@ const Update = ({ post }) => {
                 <input type="text"  id="LastName" className="form-control" value={LastName}  onChange={(e) => setLastName(e.target.value)} />
                 
                 
+            </div>
+            <div className="d-block mb-2" >
+            <label htmlFor="Image" className="text-capitalize">Image:</label>
+                <div className="container mb-2">
+                    <img className="mb-2" src={post.Photo} alt="webcam" />
                     </div>
+            </div>
             
             {/* <div className="d-block mb-2">
             <label htmlFor="Image" className="text-capitalize">Image:</label>
